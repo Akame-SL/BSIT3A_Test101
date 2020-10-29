@@ -1,0 +1,101 @@
+/* Body */
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    /* background-image: url("/img/home_18.jpg"); */
+    background-color: white;  }
+.custom-nav,.custom-alert{
+    margin: 0 0; padding: 0 0;
+} 
+/* end */
+/* Covid alert */
+.covid-alert {
+    background: #cc0202;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+font-family: Inter, sans-serif;
+}
+.covid-alert a {
+color: #fff;
+text-decoration: underline;
+font-weight: 400;
+}
+li.custom-bread{width: 22%;margin-left: 74%;}
+#date_time{font-weight: bold; color: cadetblue;}
+.card-img-overlay{
+ text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+/* end */
+/* custom card */
+.custom-card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 25rem;
+}
+.custom-row{text-align: center;}
+.custom-row h2{color:#d91b5c;}
+.custom-form{padding: 10px;}
+.navbar-brand{margin-left: 10px;}
+.custom-btn{margin-right: 10px;}
+.custom-title h1{
+    text-align: center;color: #febd11; background-color:#d91b5c;
+}
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.custom-galtitle{
+    color:#febd11; background-color: #d91b5c;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+.news{
+    color:#febd11; background-color:  #d91b5c;
+} 
+.container-fluid {
+    margin: 0 0;padding: 0 0;
+}
+#carouselExampleCaptions{
+    margin-top: -15px;
+}
+.custom{
+    width: 50px;
+}
+.nav-link{
+    color:#d91b5c;
+}
+.custom-row{
+    width : 100%;margin: 0 auto;float: none;margin-bottom: 10px;
+}
+.custom-mav{
+    text-align: center;
+}
+.footer{
+    background-color: #febd11;color:#d91b5c; margin-top: 10px; padding: 10px 10px; text-align:center;
+}
+.footer p{
+    margin-top: 15px;
+}

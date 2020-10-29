@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap practice">
+    <meta name="author" content="Stephany Laurie bacunal">
+    <meta name="generator" content="steph v1">
+    <meta name="docsearch:language" content="en">
+    <meta name="docsearch:version" content="4.4">
+    <!-- TITLE -->
+    <title>Rotaract Club of Ormoc bay</title>
+    <!-- IMG -->
+    <link rel="icon" href="../img/rotaract-club-logo-png-transparent.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/custom.css">
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- CONTAINER -->
+    <div class="container-fluid">    
+    <!-- ALERT -->
+    <div class="covid-alert alert alert-info alert-dismissible fade show custom-alert" role="alert">
+    CORONAVIRUS ALERT: <a href="https://covid19.healthypilipinas.ph/?gclid=Cj0KCQjwuL_8BRCXARIsAGiC51CZQVfuciqhoOFKmH9axy1K5b5zeZyMkuZeP3szTHmZY7Kv8nGg2YgaAiKcEALw_wcB">Click here for the latest information</a>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <!-- NAV BARS -->
+    <nav class="navbar navbar-expand-lg navbar-#d91b5c bg-warning custom-nav">
+      <a class="navbar-brand" href="#"><img src="../img/rotaract-club-logo-png-transparent.png" class="img-fluid custom" alt="Rotaract"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Updates</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Updates</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="RecentActivities.html">Recent Activity</a>
+              <a class="dropdown-item" href="UpcomingActivities.html">Upcoming Activity</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="event.html">Event</a>
+              <a class="dropdown-item" href="News.html">News</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="history.html">History</a>
+              <a class="dropdown-item" href="mission.html">Mission</a>
+              <a class="dropdown-item" href="vision.html">Vision</a>
+              <a class="dropdown-item" href="officers.html">Officers and Area Directors</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Contact Us</a> -->
+            <!-- Large modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Us</button>
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <form class="custom-form">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h3>Contact Us!</h3>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-success">Send</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          </li>
+        </ul>
+        <!-- FORM -->
+        <form class="form-inline my-2 my-lg-0 custom-btn">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>&nbsp;
+          <a class="btn btn-primary" href="login.html">Log In</a>&nbsp;
+          <a class="btn btn-danger" href="signup.html">Sign Up</a>   
+        </form>
+      </div>
+    </nav>
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Vision</li>
+        </ol>
+      </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">About Us</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Vision</li>
+        </ol>
+      </nav>      
+  <!-- End -->
+  <!-- Content-->
+  <div class="jumbotron">
+    <h1 class="display-4">Vision</h1>
+    <hr class="my-4">
+    <p class="lead">TO BE PREMIER CIVIC CLUB, WITH  MANITOWOC BEING A WORLD CLASS COMMUNITY</p>
+    <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+  </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <div class="footer-content">
+            <h1>Be one of Us!</h1>
+            <img src="../img/119737612_315273482900641_5848217681330434590_n.png" alt="">
+            </div>                
+          </div>
+        </div>
+    <p>© Copyright 2019 www.rac-ormocbay.com. All rights reserved. Developed and Designed by: <a href="https://www.linkedin.com/in/stephany-laurie-bacunal-1712b81b8/" target="new"> Stephany Laurie Bacunal.</a></p>
+  </div>
+</body>        
+</html>

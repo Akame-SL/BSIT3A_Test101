@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bootstrap practice">
+        <meta name="author" content="Stephany Laurie bacunal">
+        <meta name="generator" content="steph v1">
+        <meta name="docsearch:language" content="en">
+        <meta name="docsearch:version" content="4.4">
+        <!-- TITLE -->
+        <title>Rotaract Club of Ormoc bay</title>
+        <!-- IMG -->
+        <link rel="icon" href="../img/rotaract-club-logo-png-transparent.png">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../dist/css/custom.css">
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- CONTAINER -->
+        <div class="container-fluid">    
+        <!-- end -->
+        <!-- ALERT -->
+        <div class="covid-alert alert alert-info alert-dismissible fade show custom-alert" role="alert">
+            CORONAVIRUS ALERT: <a href="https://covid19.healthypilipinas.ph/?gclid=Cj0KCQjwuL_8BRCXARIsAGiC51CZQVfuciqhoOFKmH9axy1K5b5zeZyMkuZeP3szTHmZY7Kv8nGg2YgaAiKcEALw_wcB">Click here for the latest information</a>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- NAV BARS -->
+        <nav class="navbar navbar-expand-lg navbar-#d91b5c bg-warning custom-nav">
+            <a class="navbar-brand" href="#"><img src="../img/rotaract-club-logo-png-transparent.png" class="img-fluid custom" alt="Rotaract"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Updates</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Updates</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="RecentActivities.html">Recent Activity</a>
+                            <a class="dropdown-item" href="UpcomingActivities.html">Upcoming Activity</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="event.html">Events</a>
+                            <a class="dropdown-item" href="News.html">News</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="AboutUs.html" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="history.html">History</a>
+                            <a class="dropdown-item" href="mission.html">Mission</a>
+                            <a class="dropdown-item" href="vision.html">Vision</a>
+                            <a class="dropdown-item" href="officers.html">Officers and Area Directors</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="gallery.html">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Large modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Us</button>
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <form class="custom-form">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <!-- Contact Us -->
+                                        <h3>Contact Us!</h3>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Message</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-success">Send</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- FORM -->
+                <form class="form-inline my-2 my-lg-0 custom-btn">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>&nbsp;
+                        <a class="btn btn-primary" href="login.html">Log In</a>&nbsp;
+                        <a class="btn btn-danger" href="signup.html">Sign Up</a>   
+                </form>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Updates</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Recent Activity</li>
+            </ol>
+        </nav>      
+        <!-- end -->
+        <!-- Recent Activities-->
+        <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0 custom-galtitle">Recent Activities</h1>
+        <!-- <div class="row text-center text-lg-left"> -->
+        <div class="how-section1">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/119633229_1214254775595757_587890518995139235_n.jpg" class="card-img" alt="rotaract"/>
+                </div>
+                <div class="col-md-6">
+                    <h4>Beachurero 2020</h4>
+                    <h4 class="subheading">On September 19, 2020, the Rotaract of Ormoc Bay joined the yearly International Coastal Clean-up Drive organized by Ormoc City Youth Development Office and the Sangguniang Kabataan- Ormoc City dubbed as "The Sea Starts with Me" Activity which aims to clean-up the river banks traversing thru the Anilao Bridge, Brgy. Don Felipe Larrazabal Bridge and Brgy. Alegria Bridge.
+                    This said activity is in line of the Rotaract's Area of Focus "Supporting the Environment" and the Sustainable Development Goals "Clean Water and Sanitation". This was also participated by various youth  organizations in Ormoc City with the special participation of Kiwanis Club of Geo Ormoc and 802nd Infantry Brigade. 
+                    Indeed, “It is our duty to save the environment’s beauty.”</h4>
+                    <p class="text-muted">
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Orientation.Induction.Election</h4>
+                    <h4 class="subheading">Earlier today, September 20, 2020 at 1:00-5:00PM, RAC ORMOC BAY had their Orientation for new members and induction of officers and directors for the year 2020-2021 via google meet (Online). 
+                        CONGRATULATIONS to President ALEXANDER B. HIPE who will now become the Immediate Past President (IPP) and to our new President ALMIRA I. ANGELIO. 
+                        It was a success thanks to the special participation of our guest speakers: RCOB. Ma. Lourdes "Apple" Alagon, RCOB. Clerk Jade Aquino, DRR. Ace Justine R. Resare, PDRR. Aiza Marie Moraña, and ADRR. Red Sabela. Of course, this event would not have been successful without the time and effort of IPP, President, other officers, and our new Rotaractors.
+                        Indeed, together let us put the ideals of service of rotary- Service above self into realities.
+                        "Team will work if there is Teamwork."
+                    </h4>
+                    <p class="text-muted"></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/119953654_1214166462271255_7618790798111636833_o.jpg" class="card-img" alt="rotaract"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/117342899_1179308469090388_6556997254147506043_o.jpg" class="card-img" alt=""/>
+                </div>
+                <div class="col-md-6">
+                    <h4>Linggo ng Kabataan</h4>
+                    <h4 class="subheading">Do you want to join activities that provide services to others? Do you dream of becoming a member of an organization which is geared towards developing students and young professionals through nation-building, civic organization, and fellowship through service? 
+                        Then Rotaract Club of Ormoc Bay is PERFECT FOR YOU. Come visit our booth and register for free here at Ormoc City Superdome. We are still open up to 5 pm today, August 9.
+                    </h4>
+                    <p class="text-muted">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Cogon Fatima Children's Park Clean-up</h4>
+                    <h4 class="subheading">On September 05, 2020 despite the threat of COVID-19, Rotaractors still managed to do a simple project and support the sustainable plan of our mother club- Rotary Club Ormoc Bay.
+                        In line with one of the Rotary Area of Focus- Supporting the Environment, the Rotaract Ormoc Bay came up with the Project entitled "Cogon Fatima Children's Park Clean-up," which aims to maintain the cleanliness and beauty of the Rotary Park.
+                        The environment is where we all meet, what we have in common and what we all share. If we don't want to live in a trash can, then we better stop throwing wastes anywhere.
+                        </h4>
+                    <p class="text-muted"> 
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/118778198_1203229000031668_6826359755253418589_o.jpg" class="card-img" alt="rotaract"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/78493117_982676005420303_5860905053497327616_n.jpg" class="card-img" alt="rotaract"/>
+                </div>
+                <div class="col-md-6">
+                    <h4>12.7.19 TREE 🎄 PLANTING 🌿 @SOOB, ALBUERA, LEYTE. </h4>
+                    <h4 class="subheading">For this activity, CANCELATION is not an option, MISCOMMUNICATION is not a hindrance. We the ROTARACTORS of ROTARACT CLUB OF ORMOC BAY made this activity possible.
+                        The effort of the TEAM is remarkable on the LAND where we put the plants. Making a difference for a simple, common, basic activity will give a big help in the environment and for the greener EARTH 🌎. 
+                        By the initiative and coordination of Rotaract Officer MS. SHENNY CABINTOY together with the past president of ROTARACT KANDAYA,  IPDRR 3860 AIZA MARIE MORANA. </h4>
+                    <p class="text-muted">
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>The ROTARACT of ORMOC BAY and the ROTARACT OSPA </h4>
+                    <h4 class="subheading">collaborates for a proposed projects and preparation for the upcoming Christmas Party.</h4>
+                    <p class="text-muted"> 
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/73495167_962343430786894_7975792416571523072_n.jpg" class="card-img" alt="rotaract"/>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->    
+        <div class="footer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <div class="footer-content">
+                            <h1>Be one of Us!</h1>
+                                <img src="../img/119737612_315273482900641_5848217681330434590_n.png" alt="rotaract">
+                        </div>                
+                    </div>
+                </div>
+                <p>© Copyright 2019 www.rac-ormocbay.com. All rights reserved. Developed and Designed by: <a href="https://www.linkedin.com/in/stephany-laurie-bacunal-1712b81b8/" target="new"> Stephany Laurie Bacunal.</a></p>
+            </div>
+        </div>
+    </body>        
+</html>
